@@ -4,7 +4,8 @@
   "description": "project-2-1819",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/peppequint/project-2-1819/issues"
   },
-  "homepage": "https://github.com/peppequint/project-2-1819#readme"
+  "homepage": "https://github.com/peppequint/project-2-1819#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
 }
