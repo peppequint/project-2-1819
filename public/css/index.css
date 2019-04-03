@@ -31,10 +31,6 @@ span {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -47,7 +43,6 @@ button {
 }
 
 .container {
-  margin: 0 auto;
   padding: 0 2.5em;
   position: relative;
 }
@@ -81,13 +76,31 @@ button {
 }
 
 /* main */
+.main {
+  display: grid;
+  grid-template-areas:
+    "col-1 col-1 col-1"
+    ". col-2 ."
+    ". col-3 ."
+    ". col-4 ."
+    ". col-5 ."
+    ". col-6 .";
+  grid-template-columns: 1fr auto 1fr;
+  width: 100%;
+}
+
 .hero-section {
+  grid-area: col-1;
   height: 224px;
+  padding: 0 2.5em;
   position: relative;
   z-index: 90;
 }
 
 .hero-content {
+  margin: 0 auto;
+  max-width: 420px;
+  padding: 0 2.5em;
   position: relative;
   z-index: 10;
 }
@@ -114,7 +127,28 @@ button {
 }
 
 .col {
+  max-width: 420px;
   padding-top: 3em;
+}
+
+.col-2 {
+  grid-area: col-2;
+}
+
+.col-3 {
+  grid-area: col-3;
+}
+
+.col-4 {
+  grid-area: col-4;
+}
+
+.col-5 {
+  grid-area: col-5;
+}
+
+.col-6 {
+  grid-area: col-6;
 }
 
 .col-intro {
@@ -139,4 +173,11 @@ button {
 
 .footer {
   background-color: var(--color-grey);
+  color: white;
+  height: 132px;
+}
+
+.footer > * {
+  margin: 0 auto;
+  max-width: 420px;
 }
