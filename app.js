@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
   res.render("pages/index");
 });
 
+app.get("/contact", (req, res) => {
+  res.render("pages/contact");
+});
+
 app.listen(port, () => {
   console.log(`App running on port ${port}!`);
 });
