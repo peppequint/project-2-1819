@@ -28,7 +28,7 @@ h4,
 h5,
 span {
   font-weight: 700;
-  margin: 0;
+  margin-top: 0;
 }
 
 ul {
@@ -164,7 +164,8 @@ button {
   margin-bottom: 3em;
 }
 
-.col-img {
+.col-img,
+.item-img {
   width: 100%;
 }
 
@@ -205,6 +206,14 @@ button {
 
 .col-img--form {
   margin-bottom: 2.5em;
+}
+
+.item-img {
+  margin-bottom: 1em;
+}
+
+.col-item:nth-child(n + 2) {
+  margin-top: 2.5em;
 }
 
 /* footer */
