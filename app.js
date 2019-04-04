@@ -17,6 +17,10 @@ app.get("/contact", (req, res) => {
   res.render("pages/contact");
 });
 
+app.get("/studentenwerk", (req, res) => {
+  res.render("pages/studentenwerk");
+});
+
 app.listen(port, () => {
   console.log(`App running on port ${port}!`);
 });
