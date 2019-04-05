@@ -26,7 +26,7 @@ You have to need [Node.js](https://nodejs.org/en/download/) installed on your co
 git clone https://github.com/peppequint/project-2-1819.git
 
 # Go to the repository
-cd browser-technologies-1819
+cd project-2-1819
 
 # Install dependencies
 npm install
