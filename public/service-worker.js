@@ -16,7 +16,7 @@ self.addEventListener("fetch", function(evt) {
 
 function precache() {
   return caches.open(CACHE).then(function(cache) {
-    return cache.addAll(["./css/index.css", "./assets/img/*"]);
+    return cache.addAll(["/css/index.css", "/assets/img"]);
   });
 }
 
