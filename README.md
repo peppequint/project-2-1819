@@ -37,4 +37,10 @@ npm run dev
 
 ## Research
 
-![screenshot-dev-tools](./public/assets/img/screenshot-dev-tools.png)
+There are many improvements possible on the website of CMD Amsterdam. To see what the possibilities are, I ran an audit to see what is happening.
+
+To my surprise, the grading of the website was an one out of hundred. Mostly, the images are to big and there is a lot of unused CSS and HTML elements.
+
+<div align="center">
+	<img align='center' src="./public/assets/img/screenshot-dev-tools.png" width="480" />
+</div>
