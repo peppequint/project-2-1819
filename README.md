@@ -65,12 +65,12 @@ As the screenshot shows below, the performance of the website has really improve
 
 However, due to lack of time I've not been able to do all the things I want to do. There are a lot of things that needs to be done to get the 100% score.
 
-- Service worker needs to be finished. There are some issues that I need to figure out what is happening.
-- Transport the image folder to the dist-folder to get a minified website. This helps the loading speed of the website.
-- Not all the content is used in this demo.
-- There is no interaction in this demo, so I didn't write good fallbacks when, for example, an user has an outdated mobile.
-- For blind people, the website is 'usable'. But for people who has issues with colours, the website is not optimised.
-- The website is not optimised for desktop. I started to build this demo for mobile, but didn't finish to make it for desktop.
+- [ ] Service worker needs to be finished. There are some issues that I need to figure out what is happening.
+- [ ] Transport the image folder to the dist-folder to get a minified website. This helps the loading speed of the website.
+- [ ] Not all the content is used in this demo.
+- [ ] There is no interaction in this demo, so I didn't write good fallbacks when, for example, an user has an outdated mobile.
+- [ ] For blind people, the website is 'usable'. But for people who has issues with colours, the website is not optimised.
+- [ ] The website is not optimised for desktop. I started to build this demo for mobile, but didn't finish to make it for desktop.
 
 ## Sources
 
